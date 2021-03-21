@@ -1,0 +1,48 @@
+.location-input{
+    border: 1px solid gray !important;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 5px gray;
+    height: 100%;
+}
+.location-area{
+    background-color: rgb(251, 95, 4);
+    padding-bottom: 30px;
+}
+.location-input label{
+    padding: 5px 20px;
+    background-color: rgb(251, 95, 4);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 100%;
+}
+.location-input input{
+    padding-left: 10px;
+    width:70%;
+}
+
+
+.ride-detail{
+    margin-left: 10px;
+    margin-top:10px;
+    width:40%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 0px gray;
+    background-color: white;
+}
+.rider-img{
+    width:100px;
+}
+.rider-img img{
+    width: 80%;
+}
+ p{
+     font-weight: 500;
+     font-size: 16px;
+}

@@ -170,6 +170,9 @@ const Login = () => {
                         <br />
                         <label htmlFor="name">Password:</label>
                         <input type="password" onBlur={handleBlurField} name="password" id="" placeholder="Password" required />
+                        <br/>
+                        {newUser && <label htmlFor="name">Confirm Password:</label>}
+                        {newUser && <input type="password" onBlur={handleBlurField} name="confirmPassword" id="" placeholder="Confirm Password" required />}
                     </div>
                     <br />
                     <input className="submit-button" type="submit" value={newUser ? "Create an account" : 'Log In'} />

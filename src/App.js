@@ -22,14 +22,14 @@ function App() {
   return (
     
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
-      <h3>email: {loggedInUser.email}</h3>
+     
     <Router>
       <Header></Header>
       <Switch>
         <Route path="/home">
           <Home></Home>
         </Route>
-        <PrivateRoute path="/destination">
+        <PrivateRoute path="/destination/:vehicleName">
           <Destination></Destination>
         </PrivateRoute>
         <Route path="/contact">

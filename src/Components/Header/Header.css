@@ -1,5 +1,5 @@
 .header{
-    margin: 40px;
+    margin: 10px 40px;
     font-weight: 700;
 }
 .header-title h2{
@@ -10,4 +10,8 @@
     color: black;
     padding: 20px;
     font-size: 1.2rem;
+    text-decoration: none!important;
+}
+a:hover{
+    color: black!important;
 }

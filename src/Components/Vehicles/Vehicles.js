@@ -16,9 +16,9 @@ const Vehicles = (props) => {
                 </div>
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
-        
-                        <Button onClick={handleRide} variant="danger">Ride</Button>
-               
+
+                    <Link to={`/destination/${name}`}><Button onClick={handleRide} variant="danger">Ride</Button>
+                    </Link>
                 </Card.Body>
             </Card>
         </div>
