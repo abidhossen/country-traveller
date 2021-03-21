@@ -1,9 +1,13 @@
 import { Card, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import './Vehicles.css'
 const Vehicles = (props) => {
     const {name, id, image} = props.vehicle;
     console.log(props.vehicle);
+    const history = useHistory();
+    const handleRide = () => {
+        history.push('/destination')
+    }
     return (
         <div>        
             <Card className="text-center">
@@ -12,9 +16,9 @@ const Vehicles = (props) => {
                 </div>
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
-                    <Link to="">
-                        <Button  variant="danger">Ride</Button>
-                    </Link>                
+        
+                        <Button onClick={handleRide} variant="danger">Ride</Button>
+               
                 </Card.Body>
             </Card>
         </div>

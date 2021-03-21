@@ -11,7 +11,8 @@ import Contact from './Components/Contact/Contact';
 import Login from './Components/Login/Login';
 import NotFound from './Components/NotFound/NotFound';
 import { createContext, useState } from 'react';
-import Vehicles from './Components/Vehicles/Vehicles';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+
 
 
 export const UserContext = createContext();
@@ -21,15 +22,16 @@ function App() {
   return (
     
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
+      <h3>email: {loggedInUser.email}</h3>
     <Router>
       <Header></Header>
       <Switch>
         <Route path="/home">
           <Home></Home>
         </Route>
-        <Route path="/destination">
+        <PrivateRoute path="/destination">
           <Destination></Destination>
-        </Route>
+        </PrivateRoute>
         <Route path="/contact">
           <Contact></Contact>
         </Route>
