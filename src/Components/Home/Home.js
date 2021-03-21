@@ -1,25 +1,26 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import vehicleData from '../../data/data.json'
+import Vehicles from '../Vehicles/Vehicles';
 import './Home.css';
-const Home = (props) => {
-    const {name, id, image} = props.vehicle;
-    console.log(props.vehicle)
+const Home = () => {
+    const [vehicles, setVehicles] = useState([]);
+    useEffect(() => {
+        setVehicles(vehicleData);
+    },[])
     return (
-        <div>        
-            <Card className="text-center">
-                <div className="vehicle-logo">
-                    <Card.Img variant="top" src={image} />
-                </div>
-                <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-                    <Link to={`destination/${name}`}>
-                        <Button  variant="danger">Ride</Button>
-                    </Link>                
-                </Card.Body>
-            </Card>
+        <div className="background">
+            <div className="row vehicles-container m-auto">
+                {
+                    vehicles.map(vehicle =><div className="col-lg-3 col-md-6 col-sm-12">
+                    <Vehicles
+                        vehicle={vehicle}
+                        key={vehicle.id}
+                    ></Vehicles>
+                </div> )
+                }
+            </div>
         </div>
     );
 };
-
 export default Home;

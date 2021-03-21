@@ -25,8 +25,7 @@ function App() {
       <Header></Header>
       <Switch>
         <Route path="/home">
-        
-        <Vehicles></Vehicles>
+          <Home></Home>
         </Route>
         <Route path="/destination">
           <Destination></Destination>
@@ -37,7 +36,6 @@ function App() {
         <Route path="/login">
           <Login></Login>
         </Route>
-        
         <Route exact path="/">
           <Home></Home>
         </Route>

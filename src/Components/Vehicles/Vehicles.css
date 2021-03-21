@@ -1,10 +1,11 @@
-.background{
-    background-image: url('https://i.ibb.co/hd4X8DB/Paris.jpg');
-    background-size: cover;
-    padding: 40px;
-    background-repeat: no-repeat;
-    padding-bottom: 300px;
+.card{
+    margin-top:30px;
+    height: 275px;
 }
-.vehicles-container{
-    width: 80%;
+.vehicle-logo{
+    text-align: center;
+}
+.vehicle-logo img{
+    margin-top: 15px;
+    width: 50%;
 }
