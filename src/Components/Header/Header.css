@@ -1,0 +1,13 @@
+.header{
+    margin: 40px;
+    font-weight: 700;
+}
+.header-title h2{
+    padding-left: 40px!important;
+    font-weight: 700;
+}
+.header-nav a{
+    color: black;
+    padding: 20px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,10 @@
+.background{
+    background-image: url('https://i.ibb.co/hd4X8DB/Paris.jpg');
+    background-size: cover;
+    padding: 40px;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+}
+.vehicles-container{
+    width: 80%;
+}

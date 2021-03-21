@@ -1,0 +1,40 @@
+.form-container{
+    text-align:center;
+    width:80%;
+    margin: auto;
+}
+.account-area{
+    width: 40%;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius:5px;
+    padding: 20px;
+}
+
+.submit-button{
+    color:white;
+    background-color:rgb(248, 86, 22);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 25px;
+    font-size: 1rem;
+}
+.google-fb-signin{
+    margin-top: 20px;
+}
+.submit-button-google{
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: rgb(238, 228, 185);
+    padding: 5px 25px;
+    color: rgb(54, 53, 53);
+    border: none;
+}
+.submit-button-fb{
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: rgb(12, 116, 251);
+    padding: 5px 20px;
+    color: white;
+    border: none;
+}

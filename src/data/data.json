@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Bike",
+    "image": "https://i.ibb.co/ccv5Z0k/bike.png",
+    "salary": "$70"
+  },
+  {
+    "id": 2,
+    "name": "Car",
+    "image": "https://i.ibb.co/v4HZfdf/car.png",
+    "salary": "$70"
+  },
+  {
+    "id": 3,
+    "name": "Bus",
+    "image": "https://i.ibb.co/QKS6v1p/bus.png",
+    "salary": "$70"
+  },
+  {
+    "id": 4,
+    "name": "Train",
+    "image": "https://i.ibb.co/qkhwF2B/train.png",
+    "salary": "$70"
+  },
+  {
+    "id": 5,
+    "name": "Cng",
+    "image": "https://i.ibb.co/BCdHW5M/cng.png",
+    "salary": "$70"
+  },
+  {
+    "id": 6,
+    "name": "Boat",
+    "image": "https://i.ibb.co/sghnJhT/boat.png",
+    "salary": "$70"
+  },
+  {
+    "id": 7,
+    "name": "Helicopter",
+    "image": "https://i.ibb.co/nmPx2xg/heli.png",
+    "salary": "$70"
+  },
+  {
+    "id": 8,
+    "name": "Plane",
+    "image": "https://i.ibb.co/MDymLVQ/plane.png",
+    "salary": "$70"
+  }
+]
